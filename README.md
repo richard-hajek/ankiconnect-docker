@@ -22,7 +22,10 @@ sudo cp ./config.json ./config/Anki2/addons21/2055492159/
 sudo chown -R 911:911 ./config/Anki ./config/Anki2
 
 # Run the service
-docker-compose up
+docker-compose up -d
+
+# Test
+curl 127.0.0.1:8765
 ```
 
 ## Credits
