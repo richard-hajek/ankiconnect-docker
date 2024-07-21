@@ -18,6 +18,8 @@ sudo cp -r ~/.local/share/Anki2 ~/.local/share/Anki ./config
 # Copy AnkiConnect config file (enables access from outside Docker)
 sudo cp ./config.json ./config/Anki2/addons21/2055492159/
 
+# You may also now delete all addons EXCEPT FOR 2055492159 (AnkiConnect)
+
 # And fix permissions
 sudo chown -R 911:911 ./config/Anki ./config/Anki2
 
