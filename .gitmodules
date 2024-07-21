@@ -1,0 +1,3 @@
+[submodule "anki-desktop-docker"]
+	path = anki-desktop-docker
+	url = https://github.com/mlcivilengineer/anki-desktop-docker.git

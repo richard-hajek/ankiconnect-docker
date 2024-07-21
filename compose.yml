@@ -1,0 +1,11 @@
+services: 
+  anki-desktop: 
+    build: 
+      context: ./anki-desktop-docker
+      dockerfile: Dockerfile
+    volumes:
+      - ./config/Anki2:/config/app/Anki2
+      - ./config/Anki:/config/app/Anki
+    ports: 
+      - 3000:3000 # Remote Desktop
+      - 8765:8765 # Anki Connect port
