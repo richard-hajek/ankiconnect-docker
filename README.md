@@ -2,7 +2,7 @@
 
 ## Quickstart
 
-> Make sure Anki is installed on your computer, you are logged in AND you have AnkiConnect addon installed.
+> You must first: a) Have Anki installed b) Be logged in c) Have AnkiConnect installed. Anki does not have to be running.
 
 ```bash
 
@@ -13,15 +13,7 @@ cd ankiconnect-docker
 # Copy *YOUR* Anki settings and addons to the container
 # This needs to be done only once
 # Does not have to be the same computer as this docker will be runnig on
-sudo cp -r ~/.local/share/Anki2 ~/.local/share/Anki ./config
-
-# Copy AnkiConnect config file (enables access from outside Docker)
-sudo cp ./config.json ./config/Anki2/addons21/2055492159/
-
-# You may also now delete all addons EXCEPT FOR 2055492159 (AnkiConnect)
-
-# And fix permissions
-sudo chown -R 911:911 ./config/Anki ./config/Anki2
+./install.sh
 
 # Run the service
 docker-compose up -d
