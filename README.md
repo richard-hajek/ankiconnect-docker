@@ -7,7 +7,7 @@
 ```bash
 
 # Download this repo
-git clone https://github.com/richard-hajek/ankiconnect-docker.git
+git clone --recursive https://github.com/richard-hajek/ankiconnect-docker.git
 cd ankiconnect-docker
 
 # Copy *YOUR* Anki settings and addons to the container
