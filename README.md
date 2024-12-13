@@ -3,8 +3,11 @@
 ## Quickstart
 
 > You must first: 
+>
 > a) Have Anki installed 
+>
 > b) Be logged in 
+>
 > c) Have AnkiConnect installed (Anki does not have to be running)
 
 ```bash
