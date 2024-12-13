@@ -2,7 +2,10 @@
 
 ## Quickstart
 
-> You must first: a) Have Anki installed b) Be logged in c) Have AnkiConnect installed. Anki does not have to be running.
+> You must first: 
+> a) Have Anki installed 
+> b) Be logged in 
+> c) Have AnkiConnect installed (Anki does not have to be running)
 
 ```bash
 
@@ -13,7 +16,7 @@ cd ankiconnect-docker
 # Copy *YOUR* Anki settings and addons to the container
 # This needs to be done only once
 # This needs to be done on the computer where you run Anki
-# Afterwards, you can copy the 'config' folder in this directory to any computer and run ait there
+# Afterwards, you can copy the 'config' folder in this directory to any computer and run it there
 ./install.sh
 
 # Run the service
