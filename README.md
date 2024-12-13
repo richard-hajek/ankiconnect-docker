@@ -10,6 +10,8 @@
 >
 > c) Have AnkiConnect installed (Anki does not have to be running)
 
+> Tested on Arch Linux. Other distros may work too. Windows is not supported
+
 ```bash
 
 # Download this repo
