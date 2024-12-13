@@ -12,7 +12,8 @@ cd ankiconnect-docker
 
 # Copy *YOUR* Anki settings and addons to the container
 # This needs to be done only once
-# Does not have to be the same computer as this docker will be runnig on
+# This needs to be done on the computer where you run Anki
+# Afterwards, you can copy the 'config' folder in this directory to any computer and run ait there
 ./install.sh
 
 # Run the service
